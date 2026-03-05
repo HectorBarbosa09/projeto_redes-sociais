@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+body{
+    background-image: url(imagens/fundo-madeira.jpg);
+}
+
+
+#lateral{
+    border-radius: 50%;
+    background-position: right;   
+}
+
+.logo-home {
+    display: block;       
+    margin-left: auto;    
+    margin-right: 0;
+    max-width: 100px;
+}
+
+.logo-youtube {
+    display: block;       
+    margin-left: auto;    
+    margin-right: 0;
+    max-width: 100px;
+}
+
+.logo-github{
+    display: block;       
+    margin-left: auto;    
+    margin-right: 0;
+    max-width: 100px;
+}
+
+a:hover .logo-github {
+    border: 1px solid white;
+    max-width: 110px;
+}
+
+.logo-instagram {
+    display: block;       
+    margin-left: auto;    
+    margin-right: 0;
+    max-width: 100px;
+}
+
+.logo-twitter{
+    display: block;       
+    margin-left: auto;    
+    margin-right: 0;
+    max-width: 100px;
+}
+
+.logo-facebook {
+    display: block;       
+    margin-left: auto;    
+    margin-right: 0;
+    max-width: 100px;
+}
