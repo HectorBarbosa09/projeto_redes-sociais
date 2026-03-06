@@ -7,7 +7,15 @@ body{
 
 #lateral{
     border-radius: 50%;
-    background-position: right;   
+    background-position: right;
+    margin-top: 20px;
+}
+
+.frame-iphone {
+    display: block;       
+    margin-left: auto;    
+    margin-right: auto;
+    max-width: 400px;
 }
 
 .logo-home {
@@ -17,11 +25,21 @@ body{
     max-width: 100px;
 }
 
+a:hover .logo-home {
+    border: 1px solid gray;
+    max-width: 110px;
+}
+
 .logo-youtube {
     display: block;       
     margin-left: auto;    
     margin-right: 0;
     max-width: 100px;
+}
+
+a:hover .logo-youtube {
+    border: 1px solid rgba(255, 0, 0, 0.623);
+    max-width: 110px;
 }
 
 .logo-github{
@@ -32,7 +50,7 @@ body{
 }
 
 a:hover .logo-github {
-    border: 1px solid white;
+    border: 1px solid greenyellow;
     max-width: 110px;
 }
 
@@ -43,6 +61,11 @@ a:hover .logo-github {
     max-width: 100px;
 }
 
+a:hover .logo-instagram {
+    border: 1px solid pink;
+    max-width: 110px;
+}
+
 .logo-twitter{
     display: block;       
     margin-left: auto;    
@@ -50,9 +73,19 @@ a:hover .logo-github {
     max-width: 100px;
 }
 
+a:hover .logo-twitter {
+    border: 1px solid rgba(41, 41, 167, 0.692);
+    max-width: 110px;
+}
+
 .logo-facebook {
     display: block;       
     margin-left: auto;    
     margin-right: 0;
     max-width: 100px;
+}
+
+a:hover .logo-facebook {
+    border: 1px solid rgb(65, 65, 223);
+    max-width: 110px;
 }
