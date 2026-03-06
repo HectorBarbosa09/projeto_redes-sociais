@@ -1,91 +1,36 @@
 @charset "UTF-8";
 
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+
 body{
-    background-image: url(imagens/fundo-madeira.jpg);
+    background: url(../imagens/fundo-madeira.jpg) no-repeat top center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
-
-#lateral{
-    border-radius: 50%;
-    background-position: right;
-    margin-top: 20px;
+main{
+    height: 100vh;
+    position: relative;
 }
 
-.frame-iphone {
-    display: block;       
-    margin-left: auto;    
-    margin-right: auto;
-    max-width: 400px;
+section#telefone{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    background: url('../imagens/frame-iphone.png') no-repeat center center;
+    height: 627px;
+    width: 311px;
 }
 
-.logo-home {
-    display: block;       
-    margin-left: auto;    
-    margin-right: 0;
-    max-width: 100px;
-}
-
-a:hover .logo-home {
-    border: 1px solid gray;
-    max-width: 110px;
-}
-
-.logo-youtube {
-    display: block;       
-    margin-left: auto;    
-    margin-right: 0;
-    max-width: 100px;
-}
-
-a:hover .logo-youtube {
-    border: 1px solid rgba(255, 0, 0, 0.623);
-    max-width: 110px;
-}
-
-.logo-github{
-    display: block;       
-    margin-left: auto;    
-    margin-right: 0;
-    max-width: 100px;
-}
-
-a:hover .logo-github {
-    border: 1px solid greenyellow;
-    max-width: 110px;
-}
-
-.logo-instagram {
-    display: block;       
-    margin-left: auto;    
-    margin-right: 0;
-    max-width: 100px;
-}
-
-a:hover .logo-instagram {
-    border: 1px solid pink;
-    max-width: 110px;
-}
-
-.logo-twitter{
-    display: block;       
-    margin-left: auto;    
-    margin-right: 0;
-    max-width: 100px;
-}
-
-a:hover .logo-twitter {
-    border: 1px solid rgba(41, 41, 167, 0.692);
-    max-width: 110px;
-}
-
-.logo-facebook {
-    display: block;       
-    margin-left: auto;    
-    margin-right: 0;
-    max-width: 100px;
-}
-
-a:hover .logo-facebook {
-    border: 1px solid rgb(65, 65, 223);
-    max-width: 110px;
-}
